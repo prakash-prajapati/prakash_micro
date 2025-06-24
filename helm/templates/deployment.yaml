@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prakash_mcr
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prakash_mcr
+  template:
+    metadata:
+      labels:
+        app: prakash_mcr
+    spec:
+      containers:
+        - name: prakash_mcr
+          image: your-docker-image
+          ports:
+            - containerPort: 8080

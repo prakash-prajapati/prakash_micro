@@ -1,0 +1,4 @@
+apiVersion: v2
+name: prakash_mcr
+description: A Helm chart for deploying prakash_mcr
+version: 0.1.0
