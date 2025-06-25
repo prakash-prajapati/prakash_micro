@@ -7,4 +7,4 @@ spec:
     displayName: Prakash
     email: prakash@example.com
   memberOf:
-    - group:platform-team
+    - group: platform-team
