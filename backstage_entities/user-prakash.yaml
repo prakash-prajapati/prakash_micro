@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: prakash
+spec:
+  profile:
+    displayName: Prakash
+    email: prakash@example.com
+  memberOf:
+    - group:platform-team
