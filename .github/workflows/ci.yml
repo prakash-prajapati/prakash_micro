@@ -59,5 +59,4 @@ jobs:
         with:
           context: .
           push: true
-    ##    tags: ${{ secrets.DOCKERHUB_USERNAME }}/prakash_kyn:latest
-          tags: prakashprajapati80/prakash_kyn:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/prakash_kyn:customimage
