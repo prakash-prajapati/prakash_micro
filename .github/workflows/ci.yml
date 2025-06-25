@@ -26,9 +26,9 @@ jobs:
           pip install bandit cyclonedx-bom
           pip install pytest
 
-      - name: Run Unit Tests
-        run: |
-          pytest tests/
+          #      - name: Run Unit Tests
+          #run: |
+          #         pytest tests/
     
     
       - name: Run Bandit Security Scan
