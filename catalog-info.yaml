@@ -8,7 +8,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     prometheus.io/scrape: "true"
     loki.io/logs: "true"
-    grafana/dashboard-url: http://3.82.250.11:3001/d/4e1f973e-10eb-4da6-bba2-54997e79f6e8/test-dashboard?orgId=1&from=now-3h&to=now&timezone=browser&viewPanel=panel-2
+    grafana/dashboard-url: http://3.82.250.11:3001/d/4e1f973e-10eb-4da6-bba2-54997e79f6e8/test-dashboard?orgId=1&from=now-3h&to=now&timezone=browser
     grafana/dashboard-selector: prakash-micro
       #grafana/dashboard-selector: 'tag=raman-micro'
       #grafana/tag-selector: raman-micro
