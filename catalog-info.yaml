@@ -11,4 +11,10 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: platform-team
+# lifecycle: production
+# lifecycle: depreciated
+  owner: group:platform-team
+  dependsOn:
+    - component:default/example-website
+# dependencyOf:
+#   - component:default/artist-web-lookup
