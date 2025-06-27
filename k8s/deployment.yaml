@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prakash-micro
+  labels:
+    app: prakash-micro
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prakash-micro
+  template:
+    metadata:
+      labels:
+        app: prakash-micro
+    spec:
+      containers:
+        - name: prakash-micro
+          image: prakashprajapati80/prakash_kyn:customimage
+          ports:
+            - containerPort: 5000
+          resources:
+            limits:
+              cpu: "250m"
+              memory: "256Mi"
