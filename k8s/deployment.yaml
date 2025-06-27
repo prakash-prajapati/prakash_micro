@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: prakash-micro
-          image: docker.io/raman/raman-micro:latest
+          image: ramann123/raman-micro:raman-kyndryl-v1
           ports:
             - containerPort: 5000
           resources:
