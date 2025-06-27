@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: prakash-micro
-          image: ramann123/raman-micro:raman-kyndryl-v1
+          image: prakashprajapati80/prakash_kyn:customimage
           ports:
             - containerPort: 5000
           resources:
